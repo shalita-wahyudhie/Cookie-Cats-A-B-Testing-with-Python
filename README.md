@@ -1,4 +1,4 @@
-# Cookie-Cats-A-B-Testing-with-Python
+# Cookie Cats AB Testing with Python
 
 ### Topic: hypothesis testing in Python. 
 ### Metric used: player retention
@@ -14,6 +14,7 @@
 <li><code>retention_1</code> - did the player come back and play <strong>1 day</strong> after installing?</li>
 <li><code>retention_7</code> - did the player come back and play <strong>7 days</strong> after installing?</li>
 </ul>
+
 ### Conclusion
 <p>The analysis result tells us that there is strong evidence that retention is higher when the gate is at level 30 than when it is at level 40. The conclusion is: If we want to keep retention high — both 1-day and 7-day retention — we should <strong>not</strong> move the gate from level 30 to level 40. </p>
 <p>So, why is retention higher when the gate is positioned earlier? It is because, the later the obstacle, the longer people are going to engage with the game. But this is not what the data tells us. The theory of <em>hedonic adaptation</em> can give one explanation for this. In short, hedonic adaptation is the tendency for people to get less and less enjoyment out of a fun activity over time if that activity is being done continuously. By forcing players to take a break when they reach a gate, their enjoyment of the game is prolonged. But when the gate is moved to level 40, fewer players make it far enough, and they are more likely to quit the game because they simply got bored of it. </p>
